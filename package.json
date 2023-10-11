@@ -1,0 +1,24 @@
+{
+  "name": "figma2css",
+  "version": "1.0.0",
+  "description": "Converts Figma variables to CSS",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "jest",
+    "prestart": "tsc -p .",
+    "start": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "tsc": "^2.0.4",
+    "typescript": "^4.5.4"
+  }
+}

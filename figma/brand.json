@@ -1,0 +1,4564 @@
+{
+    "id": "VariableCollectionId:3727:47592",
+    "name": "Brand",
+    "modes": {
+        "3727:7": "Rebellion",
+        "3727:8": "Sniper Elite",
+        "3727:9": "Zombie Army",
+        "3810:0": "2000AD"
+    },
+    "variableIds": [
+        "VariableID:3881:43263",
+        "VariableID:3881:43262",
+        "VariableID:3881:43261",
+        "VariableID:3854:43121",
+        "VariableID:3854:43120",
+        "VariableID:3854:43119",
+        "VariableID:3854:43118",
+        "VariableID:3854:43117",
+        "VariableID:3854:43116",
+        "VariableID:3854:43115",
+        "VariableID:3838:43125",
+        "VariableID:3819:57273",
+        "VariableID:3819:44088",
+        "VariableID:3819:44083",
+        "VariableID:3810:51813",
+        "VariableID:3797:43128",
+        "VariableID:3810:51819",
+        "VariableID:3819:57290",
+        "VariableID:3779:43019",
+        "VariableID:3799:43542",
+        "VariableID:3799:43540",
+        "VariableID:3810:51820",
+        "VariableID:3797:43303",
+        "VariableID:3797:43302",
+        "VariableID:3797:43301",
+        "VariableID:3779:43016",
+        "VariableID:3799:43539",
+        "VariableID:3797:43285",
+        "VariableID:3797:43283",
+        "VariableID:3797:43282",
+        "VariableID:3797:43281",
+        "VariableID:3819:57288",
+        "VariableID:3797:43121",
+        "VariableID:3797:43051",
+        "VariableID:3797:43050",
+        "VariableID:3779:43034",
+        "VariableID:3779:43033",
+        "VariableID:3779:43032",
+        "VariableID:3779:43029",
+        "VariableID:3779:43028",
+        "VariableID:3797:43127",
+        "VariableID:3779:43027",
+        "VariableID:3797:43126",
+        "VariableID:3779:43026",
+        "VariableID:3819:44087",
+        "VariableID:3855:43124",
+        "VariableID:3779:43025",
+        "VariableID:3741:51750",
+        "VariableID:3855:43123",
+        "VariableID:3779:43024",
+        "VariableID:3779:43023",
+        "VariableID:3779:43018",
+        "VariableID:3799:43541",
+        "VariableID:3797:43052",
+        "VariableID:3797:43049",
+        "VariableID:3797:43125",
+        "VariableID:3727:47593",
+        "VariableID:3779:43021",
+        "VariableID:3810:51822",
+        "VariableID:3819:57285",
+        "VariableID:3779:43022",
+        "VariableID:3739:44735",
+        "VariableID:3779:43030",
+        "VariableID:3810:51821",
+        "VariableID:3819:57259",
+        "VariableID:3797:43124",
+        "VariableID:3819:57283",
+        "VariableID:3779:43020",
+        "VariableID:3810:51823"
+    ],
+    "variables": [
+        {
+            "id": "VariableID:3727:47593",
+            "name": "inputs/buttons/primary/background",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50223"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:50285"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51755"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51776"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.7607843279838562,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3808:50223",
+                    "aliasName": "rebellion/inputs/buttons/primary/background"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.7176470756530762,
+                        "b": 0.32156863808631897,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3810:50285",
+                    "aliasName": "sniper/inputs/buttons/primary/background"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0.7647058963775635,
+                        "g": 0.062745101749897,
+                        "b": 0.06666667014360428,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3810:51755",
+                    "aliasName": "za/inputs/buttons/primary/background"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.12156862765550613,
+                        "b": 0.14509804546833038,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3810:51776",
+                    "aliasName": "2000AD/inputs/buttons/primary/background"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3739:44735",
+            "name": "body/text/accent",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3772:43009"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3778:43104"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3778:43124"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3772:43018"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.7607843279838562,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3772:43009",
+                    "aliasName": "colour/brands/rebellion/red/100"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.7176470756530762,
+                        "b": 0.32156863808631897,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3778:43104",
+                    "aliasName": "colour/brands/sniper-elite/orange/100"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0.7647058963775635,
+                        "g": 0.062745101749897,
+                        "b": 0.06666667014360428,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3778:43124",
+                    "aliasName": "colour/brands/zombie-army/red/100"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.12156862765550613,
+                        "b": 0.14509804546833038,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3772:43018",
+                    "aliasName": "colour/brands/2000AD/red/100"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3741:51750",
+            "name": "inputs/border-radius",
+            "description": "",
+            "type": "FLOAT",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42993"
+                },
+                "3727:8": 0,
+                "3727:9": 0,
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42993"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": 4,
+                    "alias": "VariableID:3779:42993",
+                    "aliasName": "radius/sm"
+                },
+                "3727:8": {
+                    "resolvedValue": 0,
+                    "alias": null
+                },
+                "3727:9": {
+                    "resolvedValue": 0,
+                    "alias": null
+                },
+                "3810:0": {
+                    "resolvedValue": 4,
+                    "alias": "VariableID:3779:42993",
+                    "aliasName": "radius/sm"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3779:43016",
+            "name": "inputs/buttons/primary/background-hover",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50224"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:50286"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51756"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51777"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.6392157077789307,
+                        "g": 0.11372549086809158,
+                        "b": 0.13333334028720856,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3808:50224",
+                    "aliasName": "rebellion/inputs/buttons/primary/background-hover"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.8291666507720947,
+                        "g": 0.586044430732727,
+                        "b": 0.25220486521720886,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3810:50286",
+                    "aliasName": "sniper/inputs/buttons/primary/background-hover"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0.7647058963775635,
+                        "g": 0.062745101749897,
+                        "b": 0.06666667014360428,
+                        "a": 0.8799999952316284
+                    },
+                    "alias": "VariableID:3810:51756",
+                    "aliasName": "za/inputs/buttons/primary/background-hover"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0.5372549295425415,
+                        "g": 0.10196078568696976,
+                        "b": 0.10980392247438431,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3810:51777",
+                    "aliasName": "2000AD/inputs/buttons/primary/background-hover"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3779:43018",
+            "name": "body/text/primary",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42988"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43032"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43053"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42988"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3796:42988",
+                    "aliasName": "rebellion/body/text/primary"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.9019607901573181,
+                        "g": 0.8980392217636108,
+                        "b": 0.8196078538894653,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3797:43032",
+                    "aliasName": "sniper/body/text/primary"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3797:43053",
+                    "aliasName": "za/body/text/primary"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3796:42988",
+                    "aliasName": "rebellion/body/text/primary"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3779:43019",
+            "name": "inputs/buttons/primary/text",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50220"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:50282"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51752"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51773"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3808:50220",
+                    "aliasName": "rebellion/inputs/buttons/primary/text"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.007465277798473835,
+                        "g": 0.01551266573369503,
+                        "b": 0.0416666679084301,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3810:50282",
+                    "aliasName": "sniper/inputs/buttons/primary/text"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3810:51752",
+                    "aliasName": "za/inputs/buttons/primary/text"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3810:51773",
+                    "aliasName": "2000AD/inputs/buttons/primary/text"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3779:43020",
+            "name": "inputs/buttons/primary/focus-highlight",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50222"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:50284"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51754"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51775"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.7607843279838562,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3808:50222",
+                    "aliasName": "rebellion/inputs/buttons/primary/focus-highlight"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.054901961237192154,
+                        "g": 0.07450980693101883,
+                        "b": 0.12941177189350128,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3810:50284",
+                    "aliasName": "sniper/inputs/buttons/primary/focus-highlight"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0.7647058963775635,
+                        "g": 0.062745101749897,
+                        "b": 0.06666667014360428,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3810:51754",
+                    "aliasName": "za/inputs/buttons/primary/focus-highlight"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.12156862765550613,
+                        "b": 0.14509804546833038,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3810:51775",
+                    "aliasName": "2000AD/inputs/buttons/primary/focus-highlight"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3779:43021",
+            "name": "inputs/border-size",
+            "description": "",
+            "type": "FLOAT",
+            "valuesByMode": {
+                "3727:7": 4,
+                "3727:8": 2,
+                "3727:9": 4,
+                "3810:0": 4
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": 4,
+                    "alias": null
+                },
+                "3727:8": {
+                    "resolvedValue": 2,
+                    "alias": null
+                },
+                "3727:9": {
+                    "resolvedValue": 4,
+                    "alias": null
+                },
+                "3810:0": {
+                    "resolvedValue": 4,
+                    "alias": null
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3779:43022",
+            "name": "inputs/stroke-size",
+            "description": "",
+            "type": "FLOAT",
+            "valuesByMode": {
+                "3727:7": 1.5,
+                "3727:8": 1.5,
+                "3727:9": 1.5,
+                "3810:0": 1.5
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": 1.5,
+                    "alias": null
+                },
+                "3727:8": {
+                    "resolvedValue": 1.5,
+                    "alias": null
+                },
+                "3727:9": {
+                    "resolvedValue": 1.5,
+                    "alias": null
+                },
+                "3810:0": {
+                    "resolvedValue": 1.5,
+                    "alias": null
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3779:43023",
+            "name": "inputs/buttons/tertiary/text",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50232"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:43027"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51763"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50232"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3808:50232",
+                    "aliasName": "rebellion/inputs/buttons/tertiary/text"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3779:43027",
+                    "aliasName": "inputs/buttons/secondary/text"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3810:51763",
+                    "aliasName": "za/inputs/buttons/tertiary/text"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3808:50232",
+                    "aliasName": "rebellion/inputs/buttons/tertiary/text"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3779:43024",
+            "name": "inputs/buttons/tertiary/background",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50235"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:43028"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51766"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50235"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.0941176488995552,
+                        "g": 0.529411792755127,
+                        "b": 0.07058823853731155,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3808:50235",
+                    "aliasName": "rebellion/inputs/buttons/tertiary/background"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.9041666388511658,
+                        "g": 0.6121671795845032,
+                        "b": 0.041440971195697784,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3779:43028",
+                    "aliasName": "inputs/buttons/secondary/background"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0.4470588266849518,
+                        "b": 0.572549045085907,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3810:51766",
+                    "aliasName": "za/inputs/buttons/tertiary/background"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0.0941176488995552,
+                        "g": 0.529411792755127,
+                        "b": 0.07058823853731155,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3808:50235",
+                    "aliasName": "rebellion/inputs/buttons/tertiary/background"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3779:43025",
+            "name": "inputs/buttons/tertiary/background-hover",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50236"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:43029"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51767"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50236"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.07058823853731155,
+                        "g": 0.38823530077934265,
+                        "b": 0.05098039284348488,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3808:50236",
+                    "aliasName": "rebellion/inputs/buttons/tertiary/background-hover"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.6541666388511658,
+                        "g": 0.4410173296928406,
+                        "b": 0.02725694514811039,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3779:43029",
+                    "aliasName": "inputs/buttons/secondary/background-hover"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0.3285958468914032,
+                        "b": 0.4208333194255829,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3810:51767",
+                    "aliasName": "za/inputs/buttons/tertiary/background-hover"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0.07058823853731155,
+                        "g": 0.38823530077934265,
+                        "b": 0.05098039284348488,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3808:50236",
+                    "aliasName": "rebellion/inputs/buttons/tertiary/background-hover"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3779:43026",
+            "name": "inputs/buttons/tertiary/focus-highlight",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50234"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:43030"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51765"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50234"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.0941176488995552,
+                        "g": 0.529411792755127,
+                        "b": 0.07058823853731155,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3808:50234",
+                    "aliasName": "rebellion/inputs/buttons/tertiary/focus-highlight"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.9058823585510254,
+                        "g": 0.6117647290229797,
+                        "b": 0.04313725605607033,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3779:43030",
+                    "aliasName": "inputs/buttons/secondary/focus-highlight"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0.4470588266849518,
+                        "b": 0.572549045085907,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3810:51765",
+                    "aliasName": "za/inputs/buttons/tertiary/focus-highlight"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0.0941176488995552,
+                        "g": 0.529411792755127,
+                        "b": 0.07058823853731155,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3808:50234",
+                    "aliasName": "rebellion/inputs/buttons/tertiary/focus-highlight"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3779:43027",
+            "name": "inputs/buttons/secondary/text",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50226"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:50287"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51758"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50226"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3808:50226",
+                    "aliasName": "rebellion/inputs/buttons/secondary/text"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.007465277798473835,
+                        "g": 0.01551266573369503,
+                        "b": 0.0416666679084301,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3810:50287",
+                    "aliasName": "sniper/inputs/buttons/secondary/text"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3810:51758",
+                    "aliasName": "za/inputs/buttons/secondary/text"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3808:50226",
+                    "aliasName": "rebellion/inputs/buttons/secondary/text"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3779:43028",
+            "name": "inputs/buttons/secondary/background",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50229"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:50290"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51761"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50229"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.9041666388511658,
+                        "g": 0.6121671795845032,
+                        "b": 0.041440971195697784,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3808:50229",
+                    "aliasName": "rebellion/inputs/buttons/secondary/background"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.8039215803146362,
+                        "b": 0.11372549086809158,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3810:50290",
+                    "aliasName": "sniper/inputs/buttons/secondary/background"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.800000011920929,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3810:51761",
+                    "aliasName": "za/inputs/buttons/secondary/background"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0.9041666388511658,
+                        "g": 0.6121671795845032,
+                        "b": 0.041440971195697784,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3808:50229",
+                    "aliasName": "rebellion/inputs/buttons/secondary/background"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3779:43029",
+            "name": "inputs/buttons/secondary/background-hover",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50230"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:50291"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51762"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50230"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.6541666388511658,
+                        "g": 0.4410173296928406,
+                        "b": 0.02725694514811039,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3808:50230",
+                    "aliasName": "rebellion/inputs/buttons/secondary/background-hover"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.8333333134651184,
+                        "g": 0.679724931716919,
+                        "b": 0.1354166716337204,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3810:50291",
+                    "aliasName": "sniper/inputs/buttons/secondary/background-hover"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.800000011920929,
+                        "b": 0,
+                        "a": 0.8799999952316284
+                    },
+                    "alias": "VariableID:3810:51762",
+                    "aliasName": "za/inputs/buttons/secondary/background-hover"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0.6541666388511658,
+                        "g": 0.4410173296928406,
+                        "b": 0.02725694514811039,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3808:50230",
+                    "aliasName": "rebellion/inputs/buttons/secondary/background-hover"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3779:43030",
+            "name": "inputs/buttons/secondary/focus-highlight",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50228"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:50289"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51760"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50228"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.9058823585510254,
+                        "g": 0.6117647290229797,
+                        "b": 0.04313725605607033,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3808:50228",
+                    "aliasName": "rebellion/inputs/buttons/secondary/focus-highlight"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.054901961237192154,
+                        "g": 0.07450980693101883,
+                        "b": 0.12941177189350128,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3810:50289",
+                    "aliasName": "sniper/inputs/buttons/secondary/focus-highlight"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.800000011920929,
+                        "b": 0,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3810:51760",
+                    "aliasName": "za/inputs/buttons/secondary/focus-highlight"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0.9058823585510254,
+                        "g": 0.6117647290229797,
+                        "b": 0.04313725605607033,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3808:50228",
+                    "aliasName": "rebellion/inputs/buttons/secondary/focus-highlight"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3779:43032",
+            "name": "inputs/buttons/primary/caption",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50221"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:50283"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51753"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51774"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3808:50221",
+                    "aliasName": "rebellion/inputs/buttons/primary/caption"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.054901961237192154,
+                        "g": 0.07450980693101883,
+                        "b": 0.12941177189350128,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3810:50283",
+                    "aliasName": "sniper/inputs/buttons/primary/caption"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3810:51753",
+                    "aliasName": "za/inputs/buttons/primary/caption"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3810:51774",
+                    "aliasName": "2000AD/inputs/buttons/primary/caption"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3779:43033",
+            "name": "inputs/buttons/secondary/caption",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50227"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:50288"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51759"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50227"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3808:50227",
+                    "aliasName": "rebellion/inputs/buttons/secondary/caption"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.054901961237192154,
+                        "g": 0.07450980693101883,
+                        "b": 0.12941177189350128,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3810:50288",
+                    "aliasName": "sniper/inputs/buttons/secondary/caption"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3810:51759",
+                    "aliasName": "za/inputs/buttons/secondary/caption"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3808:50227",
+                    "aliasName": "rebellion/inputs/buttons/secondary/caption"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3779:43034",
+            "name": "inputs/buttons/tertiary/caption",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50233"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:43033"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51764"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50233"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3808:50233",
+                    "aliasName": "rebellion/inputs/buttons/tertiary/caption"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3779:43033",
+                    "aliasName": "inputs/buttons/secondary/caption"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3810:51764",
+                    "aliasName": "za/inputs/buttons/tertiary/caption"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3808:50233",
+                    "aliasName": "rebellion/inputs/buttons/tertiary/caption"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3797:43049",
+            "name": "body/background/primary",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42991"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43035"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43056"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42991"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3796:42991",
+                    "aliasName": "rebellion/body/background/primary"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.007465277798473835,
+                        "g": 0.01551266573369503,
+                        "b": 0.0416666679084301,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3797:43035",
+                    "aliasName": "sniper/body/background/primary"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0.05098039284348488,
+                        "g": 0.10196078568696976,
+                        "b": 0.13725490868091583,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3797:43056",
+                    "aliasName": "za/body/background/primary"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3796:42991",
+                    "aliasName": "rebellion/body/background/primary"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3797:43050",
+            "name": "body/text/tertiary",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42990"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43034"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43055"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42990"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.4399999976158142
+                    },
+                    "alias": "VariableID:3796:42990",
+                    "aliasName": "rebellion/body/text/tertiary"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.9019607901573181,
+                        "g": 0.8980392217636108,
+                        "b": 0.8196078538894653,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3797:43034",
+                    "aliasName": "sniper/body/text/tertiary"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3797:43055",
+                    "aliasName": "za/body/text/tertiary"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.4399999976158142
+                    },
+                    "alias": "VariableID:3796:42990",
+                    "aliasName": "rebellion/body/text/tertiary"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3797:43051",
+            "name": "body/text/secondary",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42989"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43033"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43054"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42989"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3796:42989",
+                    "aliasName": "rebellion/body/text/secondary"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.9019607901573181,
+                        "g": 0.8980392217636108,
+                        "b": 0.8196078538894653,
+                        "a": 0.8799999952316284
+                    },
+                    "alias": "VariableID:3797:43033",
+                    "aliasName": "sniper/body/text/secondary"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.8799999952316284
+                    },
+                    "alias": "VariableID:3797:43054",
+                    "aliasName": "za/body/text/secondary"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3796:42989",
+                    "aliasName": "rebellion/body/text/secondary"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3797:43052",
+            "name": "body/background/alternate",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42992"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43036"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43057"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42992"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.9686274528503418,
+                        "g": 0.9686274528503418,
+                        "b": 0.9686274528503418,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3796:42992",
+                    "aliasName": "rebellion/body/background/alternate"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.054901961237192154,
+                        "g": 0.07450980693101883,
+                        "b": 0.12941177189350128,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3797:43036",
+                    "aliasName": "sniper/body/background/alternate"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0.10196078568696976,
+                        "g": 0.13725490868091583,
+                        "b": 0.1725490242242813,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3797:43057",
+                    "aliasName": "za/body/background/alternate"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0.9686274528503418,
+                        "g": 0.9686274528503418,
+                        "b": 0.9686274528503418,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3796:42992",
+                    "aliasName": "rebellion/body/background/alternate"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3797:43121",
+            "name": "body/background/decoration",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43100"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43102"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43104"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43100"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.03999999910593033
+                    },
+                    "alias": "VariableID:3797:43100",
+                    "aliasName": "rebellion/body/background/decoration"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.9019607901573181,
+                        "g": 0.8980392217636108,
+                        "b": 0.8196078538894653,
+                        "a": 0.03999999910593033
+                    },
+                    "alias": "VariableID:3797:43102",
+                    "aliasName": "sniper/body/background/decoration"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.03999999910593033
+                    },
+                    "alias": "VariableID:3797:43104",
+                    "aliasName": "za/body/background/decoration"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.03999999910593033
+                    },
+                    "alias": "VariableID:3797:43100",
+                    "aliasName": "rebellion/body/background/decoration"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3797:43124",
+            "name": "inputs/buttons/mono/text",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42983"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43037"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43058"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42983"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3796:42983",
+                    "aliasName": "rebellion/inputs/buttons/mono/text"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.007465277798473835,
+                        "g": 0.01551266573369503,
+                        "b": 0.0416666679084301,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3797:43037",
+                    "aliasName": "sniper/inputs/buttons/mono/text"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3797:43058",
+                    "aliasName": "za/inputs/buttons/mono/text"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3796:42983",
+                    "aliasName": "rebellion/inputs/buttons/mono/text"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3797:43125",
+            "name": "inputs/buttons/mono/caption",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42984"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43038"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43059"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42984"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3796:42984",
+                    "aliasName": "rebellion/inputs/buttons/mono/caption"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.054901961237192154,
+                        "g": 0.07450980693101883,
+                        "b": 0.12941177189350128,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3797:43038",
+                    "aliasName": "sniper/inputs/buttons/mono/caption"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3797:43059",
+                    "aliasName": "za/inputs/buttons/mono/caption"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3796:42984",
+                    "aliasName": "rebellion/inputs/buttons/mono/caption"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3797:43126",
+            "name": "inputs/buttons/mono/background",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42985"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43040"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43061"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42985"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.13725490868091583,
+                        "g": 0.1411764770746231,
+                        "b": 0.14509804546833038,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3796:42985",
+                    "aliasName": "rebellion/inputs/buttons/mono/background"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.9019607901573181,
+                        "g": 0.8980392217636108,
+                        "b": 0.8196078538894653,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3797:43040",
+                    "aliasName": "sniper/inputs/buttons/mono/background"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.1599999964237213
+                    },
+                    "alias": "VariableID:3797:43061",
+                    "aliasName": "za/inputs/buttons/mono/background"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0.13725490868091583,
+                        "g": 0.1411764770746231,
+                        "b": 0.14509804546833038,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3796:42985",
+                    "aliasName": "rebellion/inputs/buttons/mono/background"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3797:43127",
+            "name": "inputs/buttons/mono/background-hover",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42986"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43041"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43062"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42986"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.09019608050584793,
+                        "g": 0.0941176488995552,
+                        "b": 0.09803921729326248,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3796:42986",
+                    "aliasName": "rebellion/inputs/buttons/mono/background-hover"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.762499988079071,
+                        "g": 0.758440375328064,
+                        "b": 0.6894270777702332,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3797:43041",
+                    "aliasName": "sniper/inputs/buttons/mono/background-hover"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.07999999821186066
+                    },
+                    "alias": "VariableID:3797:43062",
+                    "aliasName": "za/inputs/buttons/mono/background-hover"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0.09019608050584793,
+                        "g": 0.0941176488995552,
+                        "b": 0.09803921729326248,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3796:42986",
+                    "aliasName": "rebellion/inputs/buttons/mono/background-hover"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3797:43128",
+            "name": "inputs/buttons/mono/focus-highlight",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42987"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43039"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43060"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42987"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3796:42987",
+                    "aliasName": "rebellion/inputs/buttons/mono/focus-highlight"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.054901961237192154,
+                        "g": 0.07450980693101883,
+                        "b": 0.12941177189350128,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3797:43039",
+                    "aliasName": "sniper/inputs/buttons/mono/focus-highlight"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3797:43060",
+                    "aliasName": "za/inputs/buttons/mono/focus-highlight"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3796:42987",
+                    "aliasName": "rebellion/inputs/buttons/mono/focus-highlight"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3797:43281",
+            "name": "inputs/buttons/outline/text",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50238"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51746"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51814"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50238"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3808:50238",
+                    "aliasName": "rebellion/inputs/buttons/outline/text"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.9019607901573181,
+                        "g": 0.8980392217636108,
+                        "b": 0.8196078538894653,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3810:51746",
+                    "aliasName": "sniper/inputs/buttons/outline/text"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3810:51814",
+                    "aliasName": "za/inputs/buttons/outline/text"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3808:50238",
+                    "aliasName": "rebellion/inputs/buttons/outline/text"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3797:43282",
+            "name": "inputs/buttons/outline/caption",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50239"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51747"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51815"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50239"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3808:50239",
+                    "aliasName": "rebellion/inputs/buttons/outline/caption"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.9019607901573181,
+                        "g": 0.8980392217636108,
+                        "b": 0.8196078538894653,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3810:51747",
+                    "aliasName": "sniper/inputs/buttons/outline/caption"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3810:51815",
+                    "aliasName": "za/inputs/buttons/outline/caption"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3808:50239",
+                    "aliasName": "rebellion/inputs/buttons/outline/caption"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3797:43283",
+            "name": "inputs/buttons/outline/focus-highlight",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50240"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51748"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51816"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50240"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3808:50240",
+                    "aliasName": "rebellion/inputs/buttons/outline/focus-highlight"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.9019607901573181,
+                        "g": 0.8980392217636108,
+                        "b": 0.8196078538894653,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3810:51748",
+                    "aliasName": "sniper/inputs/buttons/outline/focus-highlight"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3810:51816",
+                    "aliasName": "za/inputs/buttons/outline/focus-highlight"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3808:50240",
+                    "aliasName": "rebellion/inputs/buttons/outline/focus-highlight"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3797:43285",
+            "name": "inputs/buttons/outline/background-hover",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50243"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51750"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51818"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3808:50243"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.07999999821186066
+                    },
+                    "alias": "VariableID:3808:50243",
+                    "aliasName": "rebellion/inputs/buttons/outline/background-hover"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.9019607901573181,
+                        "g": 0.8980392217636108,
+                        "b": 0.8196078538894653,
+                        "a": 0.1599999964237213
+                    },
+                    "alias": "VariableID:3810:51750",
+                    "aliasName": "sniper/inputs/buttons/outline/background-hover"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3810:51818",
+                    "aliasName": "za/inputs/buttons/outline/background-hover"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.07999999821186066
+                    },
+                    "alias": "VariableID:3808:50243",
+                    "aliasName": "rebellion/inputs/buttons/outline/background-hover"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3797:43301",
+            "name": "inputs/buttons/disabled/text",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3772:42990"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43282"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43282"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3772:43000"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.4399999976158142
+                    },
+                    "alias": "VariableID:3772:42990",
+                    "aliasName": "colour/primary/black/44"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3797:43282",
+                    "aliasName": "inputs/buttons/outline/caption"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3797:43282",
+                    "aliasName": "inputs/buttons/outline/caption"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3772:43000",
+                    "aliasName": "colour/primary/white/100"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3797:43302",
+            "name": "inputs/buttons/disabled/background",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3775:43047"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43283"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43283"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3775:43048"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.8392156958580017,
+                        "g": 0.8392156958580017,
+                        "b": 0.8392156958580017,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3775:43047",
+                    "aliasName": "colour/primary/grey/3"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3797:43283",
+                    "aliasName": "inputs/buttons/outline/focus-highlight"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3797:43283",
+                    "aliasName": "inputs/buttons/outline/focus-highlight"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0.615686297416687,
+                        "g": 0.6196078658103943,
+                        "b": 0.6078431606292725,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3775:43048",
+                    "aliasName": "colour/primary/grey/4"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3797:43303",
+            "name": "inputs/buttons/disabled/caption",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3772:42986"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43283"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43283"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3772:43002"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3772:42986",
+                    "aliasName": "colour/primary/black/32"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3797:43283",
+                    "aliasName": "inputs/buttons/outline/focus-highlight"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3797:43283",
+                    "aliasName": "inputs/buttons/outline/focus-highlight"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3772:43002",
+                    "aliasName": "colour/primary/white/66"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3799:43539",
+            "name": "inputs/switch/on",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42994"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43043"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43064"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51804"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.7607843279838562,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3796:42994",
+                    "aliasName": "rebellion/inputs/switches/on"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.7176470756530762,
+                        "b": 0.32156863808631897,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3797:43043",
+                    "aliasName": "sniper/inputs/switches/on"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0.7647058963775635,
+                        "g": 0.062745101749897,
+                        "b": 0.06666667014360428,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3797:43064",
+                    "aliasName": "za/inputs/switches/on"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.12156862765550613,
+                        "b": 0.14509804546833038,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3810:51804",
+                    "aliasName": "2000AD/inputs/switches/on"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3799:43540",
+            "name": "inputs/switch/on-background",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42995"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43044"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43065"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51805"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.7607843279838562,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.07999999821186066
+                    },
+                    "alias": "VariableID:3796:42995",
+                    "aliasName": "rebellion/inputs/switches/on-background"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.7176470756530762,
+                        "b": 0.32156863808631897,
+                        "a": 0.1599999964237213
+                    },
+                    "alias": "VariableID:3797:43044",
+                    "aliasName": "sniper/inputs/switches/on-background"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0.7647058963775635,
+                        "g": 0.062745101749897,
+                        "b": 0.06666667014360428,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3797:43065",
+                    "aliasName": "za/inputs/switches/on-background"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.12156862765550613,
+                        "b": 0.14509804546833038,
+                        "a": 0.07999999821186066
+                    },
+                    "alias": "VariableID:3810:51805",
+                    "aliasName": "2000AD/inputs/switches/on-background"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3799:43541",
+            "name": "inputs/switch/off",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42996"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43045"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43066"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51806"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3796:42996",
+                    "aliasName": "rebellion/inputs/switches/off"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.9019607901573181,
+                        "g": 0.8980392217636108,
+                        "b": 0.8196078538894653,
+                        "a": 0.8799999952316284
+                    },
+                    "alias": "VariableID:3797:43045",
+                    "aliasName": "sniper/inputs/switches/off"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.8799999952316284
+                    },
+                    "alias": "VariableID:3797:43066",
+                    "aliasName": "za/inputs/switches/off"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.6600000262260437
+                    },
+                    "alias": "VariableID:3810:51806",
+                    "aliasName": "2000AD/inputs/switches/off"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3799:43542",
+            "name": "inputs/switch/off-background",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3796:42997"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43046"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3797:43067"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51807"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.07999999821186066
+                    },
+                    "alias": "VariableID:3796:42997",
+                    "aliasName": "rebellion/inputs/switches/off-background"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.9019607901573181,
+                        "g": 0.8980392217636108,
+                        "b": 0.8196078538894653,
+                        "a": 0.1599999964237213
+                    },
+                    "alias": "VariableID:3797:43046",
+                    "aliasName": "sniper/inputs/switches/off-background"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.1599999964237213
+                    },
+                    "alias": "VariableID:3797:43067",
+                    "aliasName": "za/inputs/switches/off-background"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.07999999821186066
+                    },
+                    "alias": "VariableID:3810:51807",
+                    "aliasName": "2000AD/inputs/switches/off-background"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3810:51813",
+            "name": "inputs/buttons/outline/background",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51751"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51749"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51817"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:51751"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0
+                    },
+                    "alias": "VariableID:3810:51751",
+                    "aliasName": "rebellion/inputs/buttons/outline/background"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.9019607901573181,
+                        "g": 0.8980392217636108,
+                        "b": 0.8196078538894653,
+                        "a": 0.07999999821186066
+                    },
+                    "alias": "VariableID:3810:51749",
+                    "aliasName": "sniper/inputs/buttons/outline/background"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.1599999964237213
+                    },
+                    "alias": "VariableID:3810:51817",
+                    "aliasName": "za/inputs/buttons/outline/background"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0
+                    },
+                    "alias": "VariableID:3810:51751",
+                    "aliasName": "rebellion/inputs/buttons/outline/background"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3810:51819",
+            "name": "inputs/text/text",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3809:50277"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:50297"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3809:50277"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3809:50277"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3809:50277",
+                    "aliasName": "rebellion/inputs/text/text"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.054901961237192154,
+                        "g": 0.07450980693101883,
+                        "b": 0.12941177189350128,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3810:50297",
+                    "aliasName": "sniper/inputs/text/text"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3809:50277",
+                    "aliasName": "rebellion/inputs/text/text"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3809:50277",
+                    "aliasName": "rebellion/inputs/text/text"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3810:51820",
+            "name": "inputs/text/placeholder",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3809:50279"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:50298"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3809:50279"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3809:50279"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.4399999976158142
+                    },
+                    "alias": "VariableID:3809:50279",
+                    "aliasName": "rebellion/inputs/text/placeholder"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.054901961237192154,
+                        "g": 0.07450980693101883,
+                        "b": 0.12941177189350128,
+                        "a": 0.1599999964237213
+                    },
+                    "alias": "VariableID:3810:50298",
+                    "aliasName": "sniper/inputs/text/placeholder"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.4399999976158142
+                    },
+                    "alias": "VariableID:3809:50279",
+                    "aliasName": "rebellion/inputs/text/placeholder"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.4399999976158142
+                    },
+                    "alias": "VariableID:3809:50279",
+                    "aliasName": "rebellion/inputs/text/placeholder"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3810:51821",
+            "name": "inputs/text/focus-highlight",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3809:50278"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:50299"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3809:50278"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3809:50278"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3809:50278",
+                    "aliasName": "rebellion/inputs/text/focus-outline"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.054901961237192154,
+                        "g": 0.07450980693101883,
+                        "b": 0.12941177189350128,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3810:50299",
+                    "aliasName": "sniper/inputs/text/focus-outline"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3809:50278",
+                    "aliasName": "rebellion/inputs/text/focus-outline"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3809:50278",
+                    "aliasName": "rebellion/inputs/text/focus-outline"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3810:51822",
+            "name": "inputs/text/background",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3809:50281"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:50301"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3809:50281"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3809:50281"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3809:50281",
+                    "aliasName": "rebellion/inputs/text/background"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.9019607901573181,
+                        "g": 0.8980392217636108,
+                        "b": 0.8196078538894653,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3810:50301",
+                    "aliasName": "sniper/inputs/text/background"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3809:50281",
+                    "aliasName": "rebellion/inputs/text/background"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3809:50281",
+                    "aliasName": "rebellion/inputs/text/background"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3810:51823",
+            "name": "inputs/text/stroke-color",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3809:50280"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3810:50300"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3809:50280"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3809:50280"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3809:50280",
+                    "aliasName": "rebellion/inputs/text/stroke-color"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.054901961237192154,
+                        "g": 0.07450980693101883,
+                        "b": 0.12941177189350128,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3810:50300",
+                    "aliasName": "sniper/inputs/text/stroke-color"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3809:50280",
+                    "aliasName": "rebellion/inputs/text/stroke-color"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3809:50280",
+                    "aliasName": "rebellion/inputs/text/stroke-color"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3819:44083",
+            "name": "inputs/buttons/mono/list-separator",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3819:44084"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3819:44085"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3819:44086"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3819:44084"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.07999999821186066
+                    },
+                    "alias": "VariableID:3819:44084",
+                    "aliasName": "rebellion/inputs/buttons/mono/list-separator"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.9019607901573181,
+                        "g": 0.8980392217636108,
+                        "b": 0.8196078538894653,
+                        "a": 0.4399999976158142
+                    },
+                    "alias": "VariableID:3819:44085",
+                    "aliasName": "sniper/inputs/buttons/mono/list-separator"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.07999999821186066
+                    },
+                    "alias": "VariableID:3819:44086",
+                    "aliasName": "za/inputs/buttons/mono/list-separator"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.07999999821186066
+                    },
+                    "alias": "VariableID:3819:44084",
+                    "aliasName": "rebellion/inputs/buttons/mono/list-separator"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3819:44087",
+            "name": "body/text/accent-hover",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3778:43096"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3778:43113"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3778:43125"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3778:43098"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.6392157077789307,
+                        "g": 0.11372549086809158,
+                        "b": 0.13333334028720856,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3778:43096",
+                    "aliasName": "colour/brands/rebellion/red/dark"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.8291666507720947,
+                        "g": 0.586044430732727,
+                        "b": 0.25220486521720886,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3778:43113",
+                    "aliasName": "colour/brands/sniper-elite/orange/dark"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0.7647058963775635,
+                        "g": 0.062745101749897,
+                        "b": 0.06666667014360428,
+                        "a": 0.8799999952316284
+                    },
+                    "alias": "VariableID:3778:43125",
+                    "aliasName": "colour/brands/zombie-army/red/88"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0.5372549295425415,
+                        "g": 0.10196078568696976,
+                        "b": 0.10980392247438431,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3778:43098",
+                    "aliasName": "colour/brands/2000AD/red/dark"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3819:44088",
+            "name": "body/text/accent-focus",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3772:43013"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3778:43108"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3778:43128"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3772:43022"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.7607843279838562,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3772:43013",
+                    "aliasName": "colour/brands/rebellion/red/32"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.7176470756530762,
+                        "b": 0.32156863808631897,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3778:43108",
+                    "aliasName": "colour/brands/sniper-elite/orange/32"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0.7647058963775635,
+                        "g": 0.062745101749897,
+                        "b": 0.06666667014360428,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3778:43128",
+                    "aliasName": "colour/brands/zombie-army/red/32"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.12156862765550613,
+                        "b": 0.14509804546833038,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3772:43022",
+                    "aliasName": "colour/brands/2000AD/red/32"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3819:57259",
+            "name": "inputs/buttons/primary/monet/background",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3799:43615"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3819:57280"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3819:57276"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3819:57275"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.875,
+                        "b": 0.875,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3799:43615",
+                    "aliasName": "colour/brands/rebellion/red/monet"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.9833333492279053,
+                        "g": 0.9458190202713013,
+                        "b": 0.8931944370269775,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3819:57280",
+                    "aliasName": "colour/brands/sniper-elite/orange/monet"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0.9624999761581421,
+                        "g": 0.7940624952316284,
+                        "b": 0.795003354549408,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3819:57276",
+                    "aliasName": "colour/brands/zombie-army/red/monet"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.8333333134651184,
+                        "b": 0.8377976417541504,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3819:57275",
+                    "aliasName": "colour/brands/2000AD/red/monet"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3819:57273",
+            "name": "inputs/buttons/tertiary/monet/background",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3799:43617"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3819:57290"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3819:57278"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3799:43617"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.929411768913269,
+                        "g": 0.9647058844566345,
+                        "b": 0.9254902005195618,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3799:43617",
+                    "aliasName": "colour/brands/rebellion/green/monet"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.9916666746139526,
+                        "g": 0.9325047135353088,
+                        "b": 0.8181250095367432,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3819:57290",
+                    "aliasName": "inputs/buttons/secondary/monet/background"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0.7958333492279053,
+                        "g": 0.955251157283783,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3819:57278",
+                    "aliasName": "colour/brands/zombie-army/blue/monet"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0.929411768913269,
+                        "g": 0.9647058844566345,
+                        "b": 0.9254902005195618,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3799:43617",
+                    "aliasName": "colour/brands/rebellion/green/monet"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3819:57283",
+            "name": "inputs/buttons/primary/monet/secondary",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3772:43009"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3778:43113"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3778:43124"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3772:43018"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.7607843279838562,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3772:43009",
+                    "aliasName": "colour/brands/rebellion/red/100"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.8291666507720947,
+                        "g": 0.586044430732727,
+                        "b": 0.25220486521720886,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3778:43113",
+                    "aliasName": "colour/brands/sniper-elite/orange/dark"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0.7647058963775635,
+                        "g": 0.062745101749897,
+                        "b": 0.06666667014360428,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3778:43124",
+                    "aliasName": "colour/brands/zombie-army/red/100"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.12156862765550613,
+                        "b": 0.14509804546833038,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3772:43018",
+                    "aliasName": "colour/brands/2000AD/red/100"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3819:57285",
+            "name": "inputs/buttons/tertiary/monet/secondary",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3775:43070"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3819:57288"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3778:43144"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3775:43070"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.0941176488995552,
+                        "g": 0.529411792755127,
+                        "b": 0.07058823853731155,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3775:43070",
+                    "aliasName": "colour/brands/rebellion/green/100"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.6541666388511658,
+                        "g": 0.4410173296928406,
+                        "b": 0.02725694514811039,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3819:57288",
+                    "aliasName": "inputs/buttons/secondary/monet/secondary"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0.4470588266849518,
+                        "b": 0.572549045085907,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3778:43144",
+                    "aliasName": "colour/brands/zombie-army/blue/100"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0.0941176488995552,
+                        "g": 0.529411792755127,
+                        "b": 0.07058823853731155,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3775:43070",
+                    "aliasName": "colour/brands/rebellion/green/100"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3819:57288",
+            "name": "inputs/buttons/secondary/monet/secondary",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3778:43097"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3778:43123"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3778:43163"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3775:43079"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.6541666388511658,
+                        "g": 0.4410173296928406,
+                        "b": 0.02725694514811039,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3778:43097",
+                    "aliasName": "colour/brands/rebellion/orange/dark"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.8333333134651184,
+                        "g": 0.679724931716919,
+                        "b": 0.1354166716337204,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3778:43123",
+                    "aliasName": "colour/brands/sniper-elite/gold/dark"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0.7541666626930237,
+                        "g": 0.6347569227218628,
+                        "b": 0.1571180522441864,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3778:43163",
+                    "aliasName": "colour/brands/zombie-army/gold/dark"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0.9041666388511658,
+                        "g": 0.6121671795845032,
+                        "b": 0.041440971195697784,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3775:43079",
+                    "aliasName": "colour/brands/rebellion/orange/100"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3819:57290",
+            "name": "inputs/buttons/secondary/monet/background",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3799:43616"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3819:57281"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3819:57277"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3799:43616"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.9916666746139526,
+                        "g": 0.9325047135353088,
+                        "b": 0.8181250095367432,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3799:43616",
+                    "aliasName": "colour/brands/rebellion/orange/monet"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.9751105904579163,
+                        "b": 0.887499988079071,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3819:57281",
+                    "aliasName": "colour/brands/sniper-elite/gold/monet"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.9799999594688416,
+                        "b": 0.8999999761581421,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3819:57277",
+                    "aliasName": "colour/brands/zombie-army/gold/monet"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0.9916666746139526,
+                        "g": 0.9325047135353088,
+                        "b": 0.8181250095367432,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3799:43616",
+                    "aliasName": "colour/brands/rebellion/orange/monet"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3838:43125",
+            "name": "body/background/separator",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3838:43122"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3838:43123"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3838:43124"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3838:43122"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.1599999964237213
+                    },
+                    "alias": "VariableID:3838:43122",
+                    "aliasName": "rebellion/body/background/separator"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.9019607901573181,
+                        "g": 0.8980392217636108,
+                        "b": 0.8196078538894653,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3838:43123",
+                    "aliasName": "sniper/body/background/separator"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.3199999928474426
+                    },
+                    "alias": "VariableID:3838:43124",
+                    "aliasName": "za/body/background/separator"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0.1599999964237213
+                    },
+                    "alias": "VariableID:3838:43122",
+                    "aliasName": "rebellion/body/background/separator"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3854:43115",
+            "name": "body/spacing/xs",
+            "description": "",
+            "type": "FLOAT",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42977"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42977"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42977"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42977"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": 4,
+                    "alias": "VariableID:3779:42977",
+                    "aliasName": "spacing/4px"
+                },
+                "3727:8": {
+                    "resolvedValue": 4,
+                    "alias": "VariableID:3779:42977",
+                    "aliasName": "spacing/4px"
+                },
+                "3727:9": {
+                    "resolvedValue": 4,
+                    "alias": "VariableID:3779:42977",
+                    "aliasName": "spacing/4px"
+                },
+                "3810:0": {
+                    "resolvedValue": 4,
+                    "alias": "VariableID:3779:42977",
+                    "aliasName": "spacing/4px"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3854:43116",
+            "name": "body/spacing/sm",
+            "description": "",
+            "type": "FLOAT",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42978"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42978"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42978"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42978"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": 8,
+                    "alias": "VariableID:3779:42978",
+                    "aliasName": "spacing/8px"
+                },
+                "3727:8": {
+                    "resolvedValue": 8,
+                    "alias": "VariableID:3779:42978",
+                    "aliasName": "spacing/8px"
+                },
+                "3727:9": {
+                    "resolvedValue": 8,
+                    "alias": "VariableID:3779:42978",
+                    "aliasName": "spacing/8px"
+                },
+                "3810:0": {
+                    "resolvedValue": 8,
+                    "alias": "VariableID:3779:42978",
+                    "aliasName": "spacing/8px"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3854:43117",
+            "name": "body/spacing/ms",
+            "description": "",
+            "type": "FLOAT",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42979"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42979"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42979"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42979"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": 12,
+                    "alias": "VariableID:3779:42979",
+                    "aliasName": "spacing/12px"
+                },
+                "3727:8": {
+                    "resolvedValue": 12,
+                    "alias": "VariableID:3779:42979",
+                    "aliasName": "spacing/12px"
+                },
+                "3727:9": {
+                    "resolvedValue": 12,
+                    "alias": "VariableID:3779:42979",
+                    "aliasName": "spacing/12px"
+                },
+                "3810:0": {
+                    "resolvedValue": 12,
+                    "alias": "VariableID:3779:42979",
+                    "aliasName": "spacing/12px"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3854:43118",
+            "name": "body/spacing/md",
+            "description": "",
+            "type": "FLOAT",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42980"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42980"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42980"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42980"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": 16,
+                    "alias": "VariableID:3779:42980",
+                    "aliasName": "spacing/16px"
+                },
+                "3727:8": {
+                    "resolvedValue": 16,
+                    "alias": "VariableID:3779:42980",
+                    "aliasName": "spacing/16px"
+                },
+                "3727:9": {
+                    "resolvedValue": 16,
+                    "alias": "VariableID:3779:42980",
+                    "aliasName": "spacing/16px"
+                },
+                "3810:0": {
+                    "resolvedValue": 16,
+                    "alias": "VariableID:3779:42980",
+                    "aliasName": "spacing/16px"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3854:43119",
+            "name": "body/spacing/lg",
+            "description": "",
+            "type": "FLOAT",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42982"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42982"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42982"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42982"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": 24,
+                    "alias": "VariableID:3779:42982",
+                    "aliasName": "spacing/24px"
+                },
+                "3727:8": {
+                    "resolvedValue": 24,
+                    "alias": "VariableID:3779:42982",
+                    "aliasName": "spacing/24px"
+                },
+                "3727:9": {
+                    "resolvedValue": 24,
+                    "alias": "VariableID:3779:42982",
+                    "aliasName": "spacing/24px"
+                },
+                "3810:0": {
+                    "resolvedValue": 24,
+                    "alias": "VariableID:3779:42982",
+                    "aliasName": "spacing/24px"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3854:43120",
+            "name": "body/spacing/xl",
+            "description": "",
+            "type": "FLOAT",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42983"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42983"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42983"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42983"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": 28,
+                    "alias": "VariableID:3779:42983",
+                    "aliasName": "spacing/28px"
+                },
+                "3727:8": {
+                    "resolvedValue": 28,
+                    "alias": "VariableID:3779:42983",
+                    "aliasName": "spacing/28px"
+                },
+                "3727:9": {
+                    "resolvedValue": 28,
+                    "alias": "VariableID:3779:42983",
+                    "aliasName": "spacing/28px"
+                },
+                "3810:0": {
+                    "resolvedValue": 28,
+                    "alias": "VariableID:3779:42983",
+                    "aliasName": "spacing/28px"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3854:43121",
+            "name": "body/spacing/2xl",
+            "description": "",
+            "type": "FLOAT",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42984"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42984"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42984"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42984"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": 32,
+                    "alias": "VariableID:3779:42984",
+                    "aliasName": "spacing/32px"
+                },
+                "3727:8": {
+                    "resolvedValue": 32,
+                    "alias": "VariableID:3779:42984",
+                    "aliasName": "spacing/32px"
+                },
+                "3727:9": {
+                    "resolvedValue": 32,
+                    "alias": "VariableID:3779:42984",
+                    "aliasName": "spacing/32px"
+                },
+                "3810:0": {
+                    "resolvedValue": 32,
+                    "alias": "VariableID:3779:42984",
+                    "aliasName": "spacing/32px"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3855:43123",
+            "name": "body/spacing/3xl",
+            "description": "",
+            "type": "FLOAT",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42987"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42987"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42987"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42987"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": 44,
+                    "alias": "VariableID:3779:42987",
+                    "aliasName": "spacing/44px"
+                },
+                "3727:8": {
+                    "resolvedValue": 44,
+                    "alias": "VariableID:3779:42987",
+                    "aliasName": "spacing/44px"
+                },
+                "3727:9": {
+                    "resolvedValue": 44,
+                    "alias": "VariableID:3779:42987",
+                    "aliasName": "spacing/44px"
+                },
+                "3810:0": {
+                    "resolvedValue": 44,
+                    "alias": "VariableID:3779:42987",
+                    "aliasName": "spacing/44px"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3855:43124",
+            "name": "body/spacing/4xl",
+            "description": "",
+            "type": "FLOAT",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42992"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42992"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42992"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3779:42991"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": 64,
+                    "alias": "VariableID:3779:42992",
+                    "aliasName": "spacing/64px"
+                },
+                "3727:8": {
+                    "resolvedValue": 64,
+                    "alias": "VariableID:3779:42992",
+                    "aliasName": "spacing/64px"
+                },
+                "3727:9": {
+                    "resolvedValue": 64,
+                    "alias": "VariableID:3779:42992",
+                    "aliasName": "spacing/64px"
+                },
+                "3810:0": {
+                    "resolvedValue": 60,
+                    "alias": "VariableID:3779:42991",
+                    "aliasName": "spacing/60px"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3881:43261",
+            "name": "inputs/buttons/primary/monet/primary",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3878:43244"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3881:43259"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3881:43256"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3881:43255"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.3529411852359772,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3878:43244",
+                    "aliasName": "colour/brands/rebellion/red/monet-text"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.3541666567325592,
+                        "g": 0.2422366440296173,
+                        "b": 0.0885416641831398,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3881:43259",
+                    "aliasName": "colour/brands/sniper-elite/orange/monet-text"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0.4958333373069763,
+                        "g": 0.03305555507540703,
+                        "b": 0.0356409028172493,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3881:43256",
+                    "aliasName": "colour/brands/zombie-army/red/monet-text"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0.3499999940395355,
+                        "g": 0.016041666269302368,
+                        "b": 0.022058933973312378,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3881:43255",
+                    "aliasName": "colour/brands/2000AD/red/monet-text"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3881:43262",
+            "name": "inputs/buttons/secondary/monet/primary",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3878:43245"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3881:43260"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3881:43257"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3878:43245"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.3529411852359772,
+                        "g": 0.23529411852359772,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3878:43245",
+                    "aliasName": "colour/brands/rebellion/orange/monet-text"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.4625000059604645,
+                        "g": 0.3754546046257019,
+                        "b": 0.06744791567325592,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3881:43260",
+                    "aliasName": "colour/brands/sniper-elite/gold/monet-text"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0.4000000059604645,
+                        "g": 0.33388155698776245,
+                        "b": 0.06499999761581421,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3881:43257",
+                    "aliasName": "colour/brands/zombie-army/gold/monet-text"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0.3529411852359772,
+                        "g": 0.23529411852359772,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3878:43245",
+                    "aliasName": "colour/brands/rebellion/orange/monet-text"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        },
+        {
+            "id": "VariableID:3881:43263",
+            "name": "inputs/buttons/tertiary/monet/primary",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3727:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3878:43246"
+                },
+                "3727:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3881:43262"
+                },
+                "3727:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3878:43247"
+                },
+                "3810:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3878:43246"
+                }
+            },
+            "resolvedValuesByMode": {
+                "3727:7": {
+                    "resolvedValue": {
+                        "r": 0.05882352963089943,
+                        "g": 0.34117648005485535,
+                        "b": 0.04313725605607033,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3878:43246",
+                    "aliasName": "colour/brands/rebellion/green/monet-text"
+                },
+                "3727:8": {
+                    "resolvedValue": {
+                        "r": 0.3529411852359772,
+                        "g": 0.23529411852359772,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3881:43262",
+                    "aliasName": "inputs/buttons/secondary/monet/primary"
+                },
+                "3727:9": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0.1882352977991104,
+                        "b": 0.25882354378700256,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3878:43247",
+                    "aliasName": "colour/brands/zombie-army/blue/monet-text"
+                },
+                "3810:0": {
+                    "resolvedValue": {
+                        "r": 0.05882352963089943,
+                        "g": 0.34117648005485535,
+                        "b": 0.04313725605607033,
+                        "a": 1
+                    },
+                    "alias": "VariableID:3878:43246",
+                    "aliasName": "colour/brands/rebellion/green/monet-text"
+                }
+            },
+            "scopes": [
+                "ALL_SCOPES"
+            ]
+        }
+    ]
+}
