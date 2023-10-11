@@ -23,9 +23,7 @@ interface Irgba {
     a: number,
 }
 
-const roundToDecimals = (num: number, maxDecimals: number = 3): number => {
-    return parseFloat(num.toFixed(maxDecimals));
-}
+const roundToDecimals = (num: number, maxDecimals: number = 3): number => parseFloat(num.toFixed(maxDecimals));
 
 const rgbToCss = (value: Irgba): string => {
     const r = roundToDecimals(Math.round(value.r * 255));
@@ -99,4 +97,4 @@ jsonFiles.forEach(jsonFile => {
     const cssContent = convertJsonToCss(jsonData);
     const outputFileName = path.basename(jsonFile.toLowerCase(), '.json') + '.css';
     fs.writeFileSync(path.join(cssDirectory, outputFileName), cssContent, 'utf-8');
-})
+});
